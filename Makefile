@@ -1,6 +1,6 @@
 # Autor: (poned aquí vuestro nombre)
 CXX      = c++
-CXXFLAGS = -std=c++17 -Wall -Wextra -Wpedantic -Wshadow -g -Iinclude
+CXXFLAGS = -std=c++23 -Wall -Wextra -Wpedantic -Wshadow -g -Iinclude
 SANFLAGS = -fsanitize=address
 
 # Módulos (sin main): añadid aquí cada .cpp de src/ que no sea main.cpp

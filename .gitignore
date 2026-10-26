@@ -1,3 +1,4 @@
 reparto
 build/
 *.o
+build-cmake/
