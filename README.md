@@ -7,7 +7,7 @@ Proyecto de *Programación con estructuras lineales* (curso 2026-27).
 make        # construye ./reparto
 make test   # ejecuta todas las baterías de tests/
 make san    # pruebas + ficheros de datos/ con AddressSanitizer
-./reparto < datos/ejemplo.txt
+./reparto < datos/<fichero>.txt
 ```
 
 En Windows (MSYS2) AddressSanitizer no está disponible: `make SANFLAGS=` y `make test SANFLAGS=`.
@@ -16,7 +16,7 @@ En Windows (MSYS2) AddressSanitizer no está disponible: `make SANFLAGS=` y `mak
 ```
 cmake -S . -B build-cmake
 cmake --build build-cmake
-./build-cmake/run_app < datos/ejemplo.txt
+./build-cmake/run_app < datos/<fichero>.txt
 ```
 
 ### Con VS Code
@@ -29,11 +29,10 @@ cmake --build build-cmake
 
 | Módulo | Implementa | Prueba | Estado |
 |---|---|---|---|
-| Contador (ejemplo, se borrará) | — | — | Hecho |
 
 ## Estructura
 - `include/` cabeceras (el contrato)
 - `src/` implementaciones y `main`
 - `tests/` una batería por módulo
 - `datos/` ficheros de órdenes
-- `docs/` documentación (ver `docs/00-indice.md`)
+- `docs/` documentación (`01-plan-de-equipo.md`)
