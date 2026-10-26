@@ -31,8 +31,6 @@ cmake --build build-cmake
 |---|---|---|---|
 
 ## Estructura
-- `include/` cabeceras (el contrato)
 - `src/` implementaciones y `main`
 - `tests/` una batería por módulo
-- `datos/` ficheros de órdenes
 - `docs/` documentación (`01-plan-de-equipo.md`)
