@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "make: construir reparto",
+      "command": "make CXX=clang++",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "type": "shell",
+      "label": "make test: ejecutar las pruebas",
+      "command": "make test CXX=clang++",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": ["$gcc"],
+      "group": "test"
+    },
+    {
+      "type": "shell",
+      "label": "make san: pruebas y datos con sanitizers",
+      "command": "make san CXX=clang++",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": ["$gcc"],
+      "group": "test"
+    },
+    {
+      "type": "shell",
+      "label": "make clean",
+      "command": "make clean",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "C++: compilar el fichero activo",
+      "command": "clang++ -std=c++17 -Wall -Wextra -Wpedantic -Wshadow -g -O0 -I'${workspaceFolder}/include' '${file}' -o '${fileDirname}/${fileBasenameNoExtension}'",
+      "options": { "cwd": "${fileDirname}" },
+      "problemMatcher": ["$gcc"],
+      "group": "build"
+    },
+    {
+      "type": "shell",
+      "label": "C++: compilar el fichero activo CON sanitizers",
+      "command": "clang++ -std=c++17 -Wall -Wextra -Wpedantic -Wshadow -g -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -I'${workspaceFolder}/include' '${file}' -o '${fileDirname}/${fileBasenameNoExtension}'",
+      "options": { "cwd": "${fileDirname}" },
+      "problemMatcher": ["$gcc"],
+      "group": "build"
+    }
+  ]
+}
