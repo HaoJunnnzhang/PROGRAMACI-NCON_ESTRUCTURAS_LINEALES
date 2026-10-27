@@ -5,7 +5,7 @@
 | Nombre | Usuario de git |
 |---|---|
 | Hao Jun Zhang | HaoJunnnzhang |
-| Pablo | _(usuario de GitHub de Pablo)_ |
+| Pablo | pablognzlz17 |
 
 ## Módulos y reparto
 
@@ -38,8 +38,8 @@ Así cada uno implementa dos estructuras con regla de tres y prueba las dos del 
 | Cuándo | Qué |
 |---|---|
 | Martes y jueves, en clase | Trabajo conjunto y reunión de 10 minutos: qué hizo cada uno y qué hará |
-| _(día y hora fuera de clase)_ | Sesión de trabajo juntos |
-| _(medio: WhatsApp / Discord ...)_ | Comunicación diaria; respondemos en menos de 24 horas |
+| Fuera de clase, cuando haga falta (se acuerda por WhatsApp) | Sesión de trabajo juntos |
+| WhatsApp | Comunicación diaria; respondemos en menos de 24 horas |
 
 ## Compromisos
 
