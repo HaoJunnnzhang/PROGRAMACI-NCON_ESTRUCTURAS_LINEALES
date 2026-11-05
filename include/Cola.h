@@ -25,6 +25,8 @@ public:
     void encolar(const Paquete& p);
     void desencolar();
     Paquete frente() const;
+    bool vacia() const;
+    int tam() const;
     Cola& operator=(Cola c);
     void intercambio( Cola&c1);
 };

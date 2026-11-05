@@ -68,3 +68,10 @@ void Cola::intercambio(Cola &c){
     std::swap(this->ultimo_,c.ultimo_);
     std::swap(this->tam_, c.tam_);
 }
+bool Cola::vacia() const {
+    return tam_ == 0;
+}
+
+int Cola::tam() const {
+    return tam_;
+}

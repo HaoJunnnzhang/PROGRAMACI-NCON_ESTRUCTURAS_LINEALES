@@ -30,4 +30,7 @@ public:
     void intercambio(Pila& p);
     void apilar(const Paquete& p);
     void desapilar();
+    Paquete cima() const;
+    bool vacia() const;
+    int tam() const;
 };
