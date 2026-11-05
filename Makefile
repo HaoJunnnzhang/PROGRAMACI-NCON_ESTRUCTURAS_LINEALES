@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++23 -Wall -Wextra -Wpedantic -Wshadow -g -Iinclude
 SANFLAGS = -fsanitize=address
 
 # Módulos (sin main): añadid aquí cada .cpp de src/ que no sea main.cpp
-MODULOS  =
+MODULOS  = src/Paquete.cpp src/Cola.cpp src/Pila.cpp src/Ruta.cpp src/ListaContigua.cpp src/ListaEnlazada.cpp src/Centro.cpp
 # Una batería por módulo: tests/test_<modulo>.cpp
 PRUEBAS  = $(wildcard tests/test_*.cpp)
 BIN_PRUEBAS = $(patsubst tests/%.cpp,build/%,$(PRUEBAS))
