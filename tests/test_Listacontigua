@@ -1,0 +1,12 @@
+//Pablo
+#include "ListaContigua.h"
+#include <cassert>
+#include <iostream>
+
+int main(){
+    ListaContigua l;
+    assert(l.vacia());
+    assert(l.tam()==0);
+    std::cout << "test_listacontigua OK\n";
+    return 0;
+}

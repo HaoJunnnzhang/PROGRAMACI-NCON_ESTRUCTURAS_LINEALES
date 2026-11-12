@@ -1,0 +1,10 @@
+//Pablo
+#include "Centro.h"
+#include <iostream>
+
+int main(){
+    Centro c(false);
+    Centro d(true);
+    std::cout << "test_centro OK\n";
+    return 0;
+}
